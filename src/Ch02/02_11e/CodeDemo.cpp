@@ -15,13 +15,13 @@ int main(){
     std::cout << "Fahrenheit: " << fahrenheit << std::endl;
     std::cout << "Celsius   : " << celsius << std::endl;
 
-    float weight = 10.99;
+    double weight = 10.99;
     
     std::cout << std::endl;
     std::cout << "Float          : " << weight << std::endl;
     std::cout << "Integer part   : " << static_cast<int>(weight) << std::endl;
-    //std::cout << "Fractional part: " << (int)((weight - (int)weight) * 10000) << std::endl;
-    std::cout << "Fractional part: " << (weight - (int)weight) * 10000 << std::endl;
+    std::cout << "Fractional part: " << (int)((weight - (int)weight) * 10000) << std::endl;
+    //std::cout << "Fractional part: " << (weight - (int)weight) * 10000 << std::endl;
 
     std::cout << std::endl << std::endl;
     return 0;
